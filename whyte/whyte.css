@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Whyte Inktrap';
-    src: url('WhyteInktrap-BlackItalic.woff2') format('woff2'),
-        url('WhyteInktrap-BlackItalic.woff') format('woff');
+    src: url('/whyte/WhyteInktrap-BlackItalic.woff2') format('woff2'),
+        url('/whyte/WhyteInktrap-BlackItalic.woff') format('woff');
     font-weight: 900;
     font-style: italic;
     font-display: swap;
