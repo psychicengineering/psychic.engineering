@@ -12,13 +12,13 @@ document.body.appendChild(renderer.domElement);
 
 // Load Font
 const loader = new THREE.FontLoader();
-loader.load("/Recoleta Black_Regular.json", (font) => {
+loader.load("/recoleta.json", (font) => {
   // Create Text Geometry
-  const textGeometry = new THREE.TextGeometry("Hello, Three.js!", {
+  const textGeometry = new THREE.TextGeometry("psychic.engineering!", {
     font: font,
     size: 1,
     height: 0.2,
-    curveSegments: 12,
+    curveSegments: 12, s
   });
 
   // Material and Mesh
