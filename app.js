@@ -12,7 +12,7 @@ document.body.appendChild(renderer.domElement);
 
 // Load Font
 const loader = new THREE.FontLoader();
-loader.load("/recoleta.json", (font) => {
+loader.load("RecoletaBlack1679684893.json", (font) => {
   // Create Text Geometry
   const textGeometry = new THREE.TextGeometry("psychic.engineering!", {
     font: font,
